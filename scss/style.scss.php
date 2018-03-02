@@ -1,4 +1,4 @@
-.logo{
+header.transparent .logo, .logo{
 	background-color: black;
     background-position: center;
     background-size: 80%;

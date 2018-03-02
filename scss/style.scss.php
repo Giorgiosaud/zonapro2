@@ -3,6 +3,8 @@ header.transparent .logo, .logo{
     background-position: center;
     background-size: 70%;
     border-radius: 50%;
-    width:70px;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
 
 }

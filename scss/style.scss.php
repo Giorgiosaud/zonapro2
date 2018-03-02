@@ -8,3 +8,9 @@ header.transparent .logo, .logo{
     margin-top: 5px;
 
 }
+div#status {
+    background-image: url(https://zonapro.us/wp-content/uploads/2017/06/zonaproanimadoblanco.gif);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -6,6 +6,7 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action( 'after_setup_theme', 'your_parent_theme_setup', 9 );
 function your_parent_theme_setup() {    
-	die(var_dump(rose_get_option('rose_logo',false,true)));
+	global $aq_theme_options;
+	die(var_dump($aq_theme_options));
 }
 

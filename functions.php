@@ -4,3 +4,4 @@ function my_theme_enqueue_styles() {
 	wp_enqueue_style( 'scss-style', get_stylesheet_directory_uri() . '/scss/style.scss.php' );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+var_dump(rose_get_option('rose_logo'));

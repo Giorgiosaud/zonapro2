@@ -4,9 +4,11 @@ jQuery(document).ready(function($) {
 		if (/#/.test(this.href)) {
 				e.preventDefault();
 			
-			var target = $( $(this).attr('href') );
+			var target = $( $(this).attr('href') ),
+			tlength=$(this).attr('href');
+
 			console.log(target);
-			if( target.length>1 ) {
+			if( tlength.length>1 ) {
 				event.preventDefault();
 				$('html, body').animate({
 					scrollTop: target.offset().top-75

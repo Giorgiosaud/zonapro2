@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	// CLICK MENU ONE PAGE  --------------------------
-	$('li.menu-item.onePage a').click(function(e){
+	$('#nav-menu > li.menu-item.onePage > a').click(function(e){
 		if (/#/.test(this.href)) {
 			e.preventDefault();
 			var target = $( $(this).attr('href') );

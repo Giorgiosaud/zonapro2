@@ -11,7 +11,7 @@ header.transparent .logo, .logo{
 
 }
 div#status {
-    background-image: url(https://zonapro.us/wp-content/uploads/2017/06/zonaproanimadoblanco.gif);
+    background-image: url($background);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;

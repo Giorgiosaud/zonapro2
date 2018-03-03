@@ -1,2 +1,2 @@
-var window.$=jQuery;
+window.$=jQuery;
 var $=jQuery;

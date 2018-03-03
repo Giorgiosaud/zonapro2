@@ -20,7 +20,9 @@ div#status {
 	background-color:#49b2d8d9;
     transition: all 0.2s;
 }
-
+.portfolio-item-title a{
+	color:#fff;
+}
 .portfolio-item:hover .portfolio-item-caption {
     opacity: 1;
 }

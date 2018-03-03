@@ -1,4 +1,4 @@
-$background:"<?php echo rose_get_object_option('logo', get_template_directory_uri().'/assets/images/logo.png', true)?>"
+$background:"<?php echo rose_get_object_option('logo', get_template_directory_uri().'/assets/images/logo.png', true)?>";
 header.transparent .logo, .logo{
 	background-color: #49b2d8;
     background-position: center;

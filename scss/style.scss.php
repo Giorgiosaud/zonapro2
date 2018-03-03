@@ -16,3 +16,10 @@ div#status {
     background-position: center;
     background-repeat: no-repeat;
 }
+.portfolio-item-caption {
+    transition: all 0.2s;
+}
+
+.portfolio-item:hover .portfolio-item-caption {
+    opacity: 1;
+}

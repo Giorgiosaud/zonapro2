@@ -17,7 +17,6 @@ div#status {
     background-repeat: no-repeat;
 }
 .portfolio-item-caption {
-	background-color:#49b2d8d9;
     transition: all 0.2s;
 }
 .portfolio-item-title a{
@@ -26,5 +25,6 @@ div#status {
 
 .portfolio-item:hover .portfolio-item-caption {
     opacity: 1;
+    background-color:#49b2d8d9;
  	transition: all 0.2s;   
 }

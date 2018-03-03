@@ -9,7 +9,7 @@ function your_parent_theme_setup() {
 	// global $aq_theme_options;
 	
 	wp_enqueue_style( 'scss-zonapro-style', get_stylesheet_directory_uri() . '/scss/style.scss.php' ,array('rose-main'));
-	wp_enqueue_script( 'zonapro-scripts', get_stylesheet_directory_uri() . '/js/script.js' ,array('counTo','rose-functions'),false,true);
+	wp_enqueue_script( 'zonapro-scripts', get_stylesheet_directory_uri() . '/js/script.js' ,array('rose-functions'),false,true);
 
 }
 

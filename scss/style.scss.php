@@ -23,6 +23,8 @@ div#status {
 .portfolio-item-title a{
 	color:#fff;
 }
+
 .portfolio-item:hover .portfolio-item-caption {
     opacity: 1;
+ 	transition: all 0.2s;   
 }

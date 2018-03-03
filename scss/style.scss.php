@@ -17,6 +17,7 @@ div#status {
     background-repeat: no-repeat;
 }
 .portfolio-item-caption {
+	background-color:#49b2d8d9;
     transition: all 0.2s;
 }
 
